@@ -1,0 +1,129 @@
+.container .small {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+body {
+    background: #f1fbff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    margin: auto;
+    width: 60%;
+    line-height: 1.9;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-nav a:hover {
+    color: rgb(5, 104, 210);
+}
+
+.w-100 {
+    height: 100vh;
+}
+.services .card-body i{
+    font-size: 55px;
+}
+.team .card-body i{
+    font-size: 20px;
+}
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.16);
+}
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.16);
+}
+
+hr{
+    border-color: chartreuse;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 10px 0 0;
+}
+
+
+/* Responsive  layout*/
+
+@media (max-width:980px) {
+    .carousel-caption {
+        bottom: 47px;
+    }
+    .w-100 {
+        height: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 85px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+    .w-100 {
+        height: 100%;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .carousel-item{
+        width: 100%;
+        height: 100%;
+    }
+
+}
